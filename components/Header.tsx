@@ -12,7 +12,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
 
-export default function Header() {
+export default function Header({ children }: { children: React.ReactNode }) {
   const [isScrolled, setIsScrolled] = useState(false)
 
   if (typeof window !== 'undefined') {
