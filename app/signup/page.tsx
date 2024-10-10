@@ -56,7 +56,7 @@ export default function Signup() {
       } else {
         setError(data.message || 'Signup failed');
       }
-    } catch (err) {
+    } catch {
       setError('An error occurred. Please try again.');
     }
   };

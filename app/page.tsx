@@ -36,6 +36,9 @@ export default function Home() {
         <Alert>
           <Info className="h-4 w-4" />
           <AlertTitle>Welcome to Airbnb Clone!</AlertTitle>
+          <AlertDescription>
+            This is a demo Airbnb clone built using Next.js and Tailwind CSS.
+          </AlertDescription>
         </Alert>
       </div>
       <Explore />

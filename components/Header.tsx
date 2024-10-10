@@ -35,6 +35,7 @@ export default function Header({ children }: { children: React.ReactNode }) {
         <Link href="/" className="flex items-center">
           <Image src="/airbnb-logo.png" alt="Airbnb" width={102} height={32} />
         </Link>
+        {children}
         <div className="hidden md:flex items-center border rounded-full py-2 px-4 shadow-sm hover:shadow-md transition cursor-pointer">
           <div className="text-sm font-semibold px-3">Anywhere</div>
           <div className="border-l border-gray-300 h-6"></div>
